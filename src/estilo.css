@@ -1,0 +1,159 @@
+/* Estilo do menu */
+nav {
+  background-color: #d4d4d4;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+  border: 1px #e66916 solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #e66916;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+li:hover {
+  background-color: #e66916;
+  color: #ffffff;
+}
+
+a:hover {
+  background-color: #e66916;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+select {
+  padding: 1em;
+  border-radius: .2em;
+  border: 1px solid #acacac;
+  color: #181820;
+}
+
+input:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.espaco-input {
+  margin: 30px;
+}
+
+.engloba {
+  background-color: #a6f0a7;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select-frutas {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.btn-exibir-fruta,
+.btn-adicionar-fruta {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.btn-exibir-fruta:hover,
+.btn-adicionar-fruta:hover {
+  opacity: 0.8;
+}
+
+.pokemon-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin-top: 60px;
+}
+
+.pokemon-search label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pokemon-search input {
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.pokemon-search button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pokemon-search button:hover {
+  background-color: #3e8e41;
+}
+
+.pokemon-search img {
+  max-width: 200px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.pokemon-search h2 {
+  color: #e66916;
+}
+
+.btn-imagem {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.frase-automovel {
+  text-decoration: underline;
+}
